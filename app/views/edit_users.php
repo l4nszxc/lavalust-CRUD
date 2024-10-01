@@ -131,8 +131,8 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
                                 <div class="row">
                                     <div class="col-md-12">
                                         <button class="btn btn-primary" type="submit" name="edit_user">UPDATE</button>
-                                        <br>
-                                        <a class="btn btn-success mt-2" href="<?= site_url('home'); ?>">RETURN HOME</a>
+                                        
+                                        <a class="btn btn-success" href="<?= site_url('home'); ?>">RETURN HOME</a>
                                     </div>
                                 </div>
                             </div>

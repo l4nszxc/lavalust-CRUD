@@ -128,7 +128,7 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
                 <div class="col-xl-12">
                     <div class="card">
                         <div class="card-header d-flex justify-content-between align-items-center">
-                            <h2 class="m-0 text-success">All Users</h2>
+                            <h2 class="m-0 text-success">ALL USERS</h2>
                             <button type="button" onclick="location.href='<?php echo site_url('add_users');?>'" class="btn btn-success btn-circle btn-sm add-user-btn">
                                 <i class="fa-solid fa-plus"></i>
                             </button>

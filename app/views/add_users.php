@@ -26,7 +26,7 @@ defined('PREVENT_DIRECT_ACCESS') or exit('No direct script access allowed');
         .header {
             background-color: wheat;
             color: #000;
-            padding: 25px;
+            padding: 20px;
             text-align: center;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -128,9 +128,9 @@ defined('PREVENT_DIRECT_ACCESS') or exit('No direct script access allowed');
                             <div class="card-footer text-center">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <button class="btn btn-primary" type="submit" name="add_users">UPDATE</button>
-                                        <br>
-                                        <a class="btn btn-success mt-2" href="<?= site_url('home'); ?>">RETURN HOME</a>
+                                        <button class="btn btn-primary" type="submit" name="add_users">ADD USER</button>
+                                        
+                                        <a class="btn btn-success" href="<?= site_url('home'); ?>">RETURN HOME</a>
                                     </div>
                                 </div>
                             </div>
